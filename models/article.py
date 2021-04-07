@@ -10,4 +10,5 @@ class Article(object):
     pum: float # price per meassure 0,56€/L
     size: float # ie. 1L
     brand: str # Carrefour
-    meassure_description # brick 1L
+    meassure_description:str # brick 1L
+    market: str # Carrefour/mercadona
