@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-
 class BaseCrawler(object):
     def __init__(self):
         chrome_options = Options()
@@ -19,6 +18,9 @@ class BaseCrawler(object):
 
     def find_by_class(self, class_name):
         return self.browser.find_elements_by_class_name(class_name)
-
+    
+    def get_by_class(self, class_name):
+        return self.browser.find_element_by_class_name(class_name)
+    
     def run(self):
         raise NotImplementedError()
