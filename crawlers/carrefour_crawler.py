@@ -22,7 +22,7 @@ class CarrefourCrawler(BaseCrawler):
     def run(self):
         urls = [
             f'https://www.carrefour.es/supermercado/la-despensa/lacteos/leche/cat20093/c?offset={offset}'
-            for offset in [0, 24, 48, 72, 96, 120]
+            for offset in [0, 12, 24, 36, 48, 60, 72, 84 ,96, 108, 120]
         ]
         
         result = []
@@ -31,8 +31,10 @@ class CarrefourCrawler(BaseCrawler):
         
         for url in product_urls:
             self.get(url)
+            self.scroll_bottom(steps=5, sleep=1)
             result.append(self.parse_detail())
             time.sleep(1)
+        print(f"link number: {len(result)}")
         return result
 
     def get_info_dt(self, boxes):
@@ -44,8 +46,12 @@ class CarrefourCrawler(BaseCrawler):
         box_prices = self.get_by_class("buybox__prices")
         description = self.get_by_class("product-header__name").text
         info_boxes = self.find_by_class("nutrition-more-info__container")
-        offer_price = self.try_get(box_prices, "buybox__price-strikethrough", lambda x: float(x.replace("€","").replace(",",".")))
-        price = self.try_get(box_prices, "buybox__price--current", lambda x: float(x.replace("€","").replace(",",".")))
+        offer_price = self.try_get(box_prices, "buybox__price-strikethrough", lambda x: float(x.replace("€","").replace(",",".")), print_exc=False)
+        price = self.try_get(box_prices, "buybox__price--current", lambda x: float(x.replace("€","").replace(",",".")), print_exc=False)
+        
+        if price is None:
+            self.try_get(box_prices, "buybox__price", lambda x: float(x.replace("€","").replace(",",".")))
+
         pum = self.try_get(box_prices, "buybox__price-per-unit", lambda x: float(x.split(" ")[0].replace(",",".")))
         info_dt = self.get_info_dt(info_boxes)
         meassure_raw = info_dt.get("Medidas", None)
@@ -61,12 +67,13 @@ class CarrefourCrawler(BaseCrawler):
             size=meassure_raw[-2] if meassure_raw is not None else "",
             meassure_description="")
 
-    def try_get(self, content, className, process):
+    def try_get(self, content, className, process, print_exc=True):
         try:
             return process(content.find_element_by_class_name(className).text)
         except Exception as ex:
-            print(ex)
-            print(className)
+            if print_exc:
+                print(ex)
+                print(className)
             return None
 
 """ legacy, parsing desde la lista
