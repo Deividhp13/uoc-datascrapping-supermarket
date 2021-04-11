@@ -1,89 +1,89 @@
 description,name,price,offer_price,meassure,pum,size,brand,meassure_description,market
-Leche semidesnatada Carrefour brik 1l.,Leche UHT semidesnatada,0.56,0.58,l,0.58, ,CARREFOUR,,carrefour
-Leche entera Carrefour brik 1l.,Leche UHT entera,0.56,0.58,l,0.58, ,CARREFOUR,,carrefour
-Leche semidesnatada Central Lechera Asturiana brik 1 l.,Leche UHT SEMIDESNATADA,0.76,0.79,l,0.79,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche entera Central Lechera Asturiana brik 1 l.,Leche UHT entera,0.76,0.79,l,0.79,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche semidesnatada Carrefour sin lactosa brik 1 l.,"Lech UHT semidesnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",,,l,0.75,m,CARREFOUR,,carrefour
-Leche entera Pascual brik 1 l.,Leche entera UHT,,,l,0.8,m,PASCUAL,,carrefour
-Leche desnatada Carrefour sin lactosa brik 1 l.,"Lech UHT desnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",,,l,0.75,m,CARREFOUR,,carrefour
-Leche semidesnatada Central Lechera Asturiana sin lactosa brik 1 l.,Leche UHT semidesnatada sin lactosa,,,l,0.93,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche semidesnatada Carrefour brik 1l.,Leche UHT semidesnatada,0.56,0.58,l,0.58, ,CARREFOUR,,carrefour
-Leche entera Carrefour brik 1l.,Leche UHT entera,0.56,0.58,l,0.58, ,CARREFOUR,,carrefour
-Leche semidesnatada Central Lechera Asturiana brik 1 l.,Leche UHT SEMIDESNATADA,0.76,0.79,l,0.79,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche entera Central Lechera Asturiana brik 1 l.,Leche UHT entera,0.76,0.79,l,0.79,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche semidesnatada Carrefour sin lactosa brik 1 l.,"Lech UHT semidesnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",,,l,0.75,m,CARREFOUR,,carrefour
-Leche entera Pascual brik 1 l.,Leche entera UHT,,,l,0.8,m,PASCUAL,,carrefour
-Leche desnatada Carrefour sin lactosa brik 1 l.,"Lech UHT desnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",,,l,0.75,m,CARREFOUR,,carrefour
-Leche semidesnatada Central Lechera Asturiana sin lactosa brik 1 l.,Leche UHT semidesnatada sin lactosa,,,l,0.93,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche entera Carrefour sin lactosa brik 1 l.,"Leche entera sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",,,l,0.75,m,CARREFOUR,,carrefour
-Preparado lácteo Omega 3 Puleva sin gluten brik 1 l.,,,,,1.25,,,,carrefour
-"Leche entera fresca Carrefour botella 1,5 l.",Leche Entera,,,l,0.77,m,CARREFOUR,,carrefour
-Leche desnatada Pascual sin lactosa brik 1 l.,,,,,0.99,,,,carrefour
-"Leche desnatada Central Lechera Asturiana botella 1,5 l.",Leche UHT desnatada,,,l,0.83,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche semidesnatada Puleva sin lactosa botella 1 l.,"Leche semidesnatada sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",0.89,0.99,l,0.99,m,PULEVA,,carrefour
-Leche semidesnatada brik 1 l.,,,,,0.55,,,,carrefour
-Leche desnatada con calcio Pascual brik 1 l.,,,,,1.2,,,,carrefour
-Leche entera Carrefour sin lactosa brik 1 l.,"Leche entera sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",,,l,0.75,m,CARREFOUR,,carrefour
-Preparado lácteo Omega 3 Puleva sin gluten brik 1 l.,,,,,1.25,,,,carrefour
-"Leche entera fresca Carrefour botella 1,5 l.",Leche Entera,,,l,0.77,m,CARREFOUR,,carrefour
-Leche desnatada Pascual sin lactosa brik 1 l.,,,,,0.99,,,,carrefour
-"Leche desnatada Central Lechera Asturiana botella 1,5 l.",Leche UHT desnatada,,,l,0.83,m,CENTRAL LECHERA ASTURIANA,,carrefour
-Leche semidesnatada Puleva sin lactosa botella 1 l.,"Leche semidesnatada sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",0.89,0.99,l,0.99,m,PULEVA,,carrefour
-Leche semidesnatada brik 1 l.,,,,,0.55,,,,carrefour
-Leche desnatada con calcio Pascual brik 1 l.,,,,,1.2,,,,carrefour
+Leche semidesnatada Carrefour brik 1l.,Leche UHT semidesnatada,0.56,0.58,l,0.58,,CARREFOUR,,carrefour
+Leche entera Carrefour brik 1l.,Leche UHT entera,0.56,0.58,l,0.58,,CARREFOUR,,carrefour
+Leche semidesnatada Central Lechera Asturiana brik 1 l.,Leche UHT SEMIDESNATADA,0.76,0.79,l,0.79,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche entera Central Lechera Asturiana brik 1 l.,Leche UHT entera,0.76,0.79,l,0.79,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche semidesnatada Carrefour sin lactosa brik 1 l.,"Lech UHT semidesnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",0.75,None,l,0.75,,CARREFOUR,,carrefour
+Leche entera Pascual brik 1 l.,Leche entera UHT,0.8,None,l,0.8,,PASCUAL,,carrefour
+Leche desnatada Carrefour sin lactosa brik 1 l.,"Lech UHT desnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",0.75,None,l,0.75,,CARREFOUR,,carrefour
+Leche semidesnatada Central Lechera Asturiana sin lactosa brik 1 l.,Leche UHT semidesnatada sin lactosa,0.93,None,l,0.93,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche semidesnatada Carrefour brik 1l.,Leche UHT semidesnatada,0.56,0.58,l,0.58,,CARREFOUR,,carrefour
+Leche entera Carrefour brik 1l.,Leche UHT entera,0.56,0.58,l,0.58,,CARREFOUR,,carrefour
+Leche semidesnatada Central Lechera Asturiana brik 1 l.,Leche UHT SEMIDESNATADA,0.76,0.79,l,0.79,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche entera Central Lechera Asturiana brik 1 l.,Leche UHT entera,0.76,0.79,l,0.79,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche semidesnatada Carrefour sin lactosa brik 1 l.,"Lech UHT semidesnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",0.75,None,l,0.75,,CARREFOUR,,carrefour
+Leche entera Pascual brik 1 l.,Leche entera UHT,0.8,None,l,0.8,,PASCUAL,,carrefour
+Leche desnatada Carrefour sin lactosa brik 1 l.,"Lech UHT desnatada sin lactosa, enriquecida con vitamina A D E y ácido fólico.",0.75,None,l,0.75,,CARREFOUR,,carrefour
+Leche semidesnatada Central Lechera Asturiana sin lactosa brik 1 l.,Leche UHT semidesnatada sin lactosa,0.93,None,l,0.93,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche entera Carrefour sin lactosa brik 1 l.,"Leche entera sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",0.75,None,l,0.75,,CARREFOUR,,carrefour
+Leche entera Carrefour pack de 6 briks de 200 ml.,,1.29,None,,1.08,,,,carrefour
+"Leche entera fresca Carrefour botella 1,5 l.",Leche Entera,1.15,None,l,0.77,,CARREFOUR,,carrefour
+Leche desnatada Pascual sin lactosa brik 1 l.,,0.99,None,,0.99,,,,carrefour
+Leche semidesnatada Carrefour pack de 6 briks de 200 ml.,,1.29,None,,1.08,,,,carrefour
+Leche semidesnatada Puleva sin lactosa botella 1 l.,"Leche semidesnatada sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",0.89,0.99,l,0.99,1,PULEVA,,carrefour
+"Leche desnatada Central Lechera Asturiana botella 1,5 l.",Leche UHT desnatada,1.25,None,l,0.83,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche desnatada con calcio Pascual brik 1 l.,,1.2,None,,1.2,,,,carrefour
+Leche entera Carrefour sin lactosa brik 1 l.,"Leche entera sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",0.75,None,l,0.75,,CARREFOUR,,carrefour
+Leche entera Carrefour pack de 6 briks de 200 ml.,,1.29,None,,1.08,,,,carrefour
+"Leche entera fresca Carrefour botella 1,5 l.",Leche Entera,1.15,None,l,0.77,,CARREFOUR,,carrefour
+Leche desnatada Pascual sin lactosa brik 1 l.,,0.99,None,,0.99,,,,carrefour
+Leche semidesnatada Carrefour pack de 6 briks de 200 ml.,,1.29,None,,1.08,,,,carrefour
+Leche semidesnatada Puleva sin lactosa botella 1 l.,"Leche semidesnatada sin lactosa enriquecida con vitamina A, E, B9 (ácido fólico) y D. UHT",0.89,0.99,l,0.99,1,PULEVA,,carrefour
+"Leche desnatada Central Lechera Asturiana botella 1,5 l.",Leche UHT desnatada,1.25,None,l,0.83,,CENTRAL LECHERA ASTURIANA,,carrefour
+Leche desnatada con calcio Pascual brik 1 l.,,1.2,None,,1.2,,,,carrefour
+"Leche desnatada Central Lechera Asturiana botella 2,2 l.",Leche UHT DESNATADA,1.67,None,l,0.76,,CENTRAL LECHERA ASTURIANA,,carrefour
+"Leche semidesnatada Celta brik 1,5 l.",Leche Semidesnatada UHT,1.17,None,l,0.78,,CELTA,,carrefour
 Leche desnatada 0% MG Central Lechera Asturiana brik 1 l.,,0.76,0.79,,0.79,,,,carrefour
-"Leche entera Celta brik 1,5 l.",Leche Entera UHT,,,l,0.78,m,CELTA,,carrefour
-Leche semidesnatada Lauki brik 1 l.,,,,,0.79,,,,carrefour
-Bebida láctea Omega 3 Carrefour brik 1 l.,"Bebida láctea UHT a base de leche desnatada enriquecida en ácidos grasos omega 3 (EPA+DHA) y vitaminas A, D, E, B6, ácido fólico y B12.",,,l,0.87,m,CARREFOUR,,carrefour
-Leche desnatada Kaiku sin lactosa brik 1 l.,"Leche desnatada UHT sin lactosa enriquecida en vitaminas A, D, E y ácido fólico",,,l,0.99,m,KAIKU,,carrefour
-Leche semidesnatada ecológica Puleva brik 1 l.,Leche UHT Semidesnatada de Agricultura Ecológica.,0.99,1.29,l,1.29,m,PULEVA,,carrefour
-"Leche entera Carrefour botella 1,5 l.",Leche UHT entera enriquecida con vitamina D.,,,l,0.7,m,CARREFOUR,,carrefour
-Leche entera ecológica Puleva brik 1 l.,Leche UHT Entera de Agricultura Ecológica.,0.99,1.29,l,1.29,m,PULEVA,,carrefour
+"Leche entera Celta brik 1,5 l.",Leche Entera UHT,1.17,None,l,0.78,,CELTA,,carrefour
+Leche semidesnatada con calcio Central Lechera Asturiana brik 1 l.,,0.94,None,,0.94,,,,carrefour
+Leche semidesnatada Lauki brik 1 l.,,0.79,None,,0.79,,,,carrefour
+"Leche semidesnatada Carrefour botella 1,5 l.",Leche UHT Semidesnatada enriquecida con vitaminas A y D,1.05,None,l,0.7,,CARREFOUR,,carrefour
+Bebida láctea Omega 3 Carrefour brik 1 l.,"Bebida láctea UHT a base de leche desnatada enriquecida en ácidos grasos omega 3 (EPA+DHA) y vitaminas A, D, E, B6, ácido fólico y B12.",0.87,None,l,0.87,,CARREFOUR,,carrefour
+"Leche desnatada Central Lechera Asturiana botella 2,2 l.",Leche UHT DESNATADA,1.67,None,l,0.76,,CENTRAL LECHERA ASTURIANA,,carrefour
+"Leche semidesnatada Celta brik 1,5 l.",Leche Semidesnatada UHT,1.17,None,l,0.78,,CELTA,,carrefour
 Leche desnatada 0% MG Central Lechera Asturiana brik 1 l.,,0.76,0.79,,0.79,,,,carrefour
-"Leche entera Celta brik 1,5 l.",Leche Entera UHT,,,l,0.78,m,CELTA,,carrefour
-Leche semidesnatada Lauki brik 1 l.,,,,,0.79,,,,carrefour
-Bebida láctea Omega 3 Carrefour brik 1 l.,"Bebida láctea UHT a base de leche desnatada enriquecida en ácidos grasos omega 3 (EPA+DHA) y vitaminas A, D, E, B6, ácido fólico y B12.",,,l,0.87,m,CARREFOUR,,carrefour
-Leche desnatada Kaiku sin lactosa brik 1 l.,"Leche desnatada UHT sin lactosa enriquecida en vitaminas A, D, E y ácido fólico",,,l,0.99,m,KAIKU,,carrefour
-Leche semidesnatada ecológica Puleva brik 1 l.,Leche UHT Semidesnatada de Agricultura Ecológica.,0.99,1.29,l,1.29,m,PULEVA,,carrefour
-"Leche entera Carrefour botella 1,5 l.",Leche UHT entera enriquecida con vitamina D.,,,l,0.7,m,CARREFOUR,,carrefour
-Leche entera ecológica Puleva brik 1 l.,Leche UHT Entera de Agricultura Ecológica.,0.99,1.29,l,1.29,m,PULEVA,,carrefour
-"Leche semidesnatada fresca ecológica Carrefour Bio botella 1,5 l.",,,,,1.19,,,,carrefour
-Leche semidesnatada Bienatur Clesa brik 1 l.,,0.64,0.75,,0.75,,,,carrefour
-Leche semidesnatada ecológica Carrefour Bio sin lactosa brik 1 l.,,,,,1.18,,,,carrefour
-Leche de cabra semidesnatada Puleva botella 1 l.,,,,,1.55,,,,carrefour
-Bebida láctea semi Flora Folic B brik 1 l.,,,,,1.1,,,,carrefour
-Leche desnatada con calcio Central Lechera Asturiana brik 1 l.,,,,,0.94,,,,carrefour
-Leche entera Kaiku sin lactosa brik 1 l.,"Leche entera UHT sin lactosa enriquecida en vitaminas A, D, E y ácido fólico",,,l,0.99,m,KAIKU,,carrefour
-Leche semidesnatada Únicla sin lactosa brik 1 l.,Leche UHT Semidesnatada Sin Lactosa,,,l,1.15,m,UNICLA,,carrefour
-"Leche semidesnatada fresca ecológica Carrefour Bio botella 1,5 l.",,,,,1.19,,,,carrefour
-Leche semidesnatada Bienatur Clesa brik 1 l.,,0.64,0.75,,0.75,,,,carrefour
-Leche semidesnatada ecológica Carrefour Bio sin lactosa brik 1 l.,,,,,1.18,,,,carrefour
-Leche de cabra semidesnatada Puleva botella 1 l.,,,,,1.55,,,,carrefour
-Bebida láctea semi Flora Folic B brik 1 l.,,,,,1.1,,,,carrefour
-Leche desnatada con calcio Central Lechera Asturiana brik 1 l.,,,,,0.94,,,,carrefour
-Leche entera Kaiku sin lactosa brik 1 l.,"Leche entera UHT sin lactosa enriquecida en vitaminas A, D, E y ácido fólico",,,l,0.99,m,KAIKU,,carrefour
-Leche semidesnatada Únicla sin lactosa brik 1 l.,Leche UHT Semidesnatada Sin Lactosa,,,l,1.15,m,UNICLA,,carrefour
-Leche semidesnatada UHT Quién es el jefe brik 1 l.,Leche semidesnatada UHT,,,l,0.83,m,QUIEN ES EL JEFE,,carrefour
-Leche semidesnatada Celta sin lactosa brik 1 l.,Leche Semidesnatada UHT Sin Lactosa,,,l,0.99,m,CELTA,,carrefour
-Leche entera ecológica Buen Pastor brik 1 l.,Leche uht entera ecológica,,,l,1.49,m,EL BUEN PASTOR,,carrefour
-Leche semidesnatada ecológica Puleva sin lactosa brik 1 l.,,,,,1.45,,,,carrefour
-Leche semidesnatada ecológica Celta Bio 1 l.,,,,,1.15,,,,carrefour
-"Leche entera Président botella 1,5 l.",Leche entera. UHT,,,l,0.73,m,PRESIDENT,,carrefour
-Leche desnatada proteínas Bienatur Clesa sin lactosa brik 1 l.,,,,,1.25,,,,carrefour
-"Leche semidesnatada fresca Puleva sin lactosa botella 1,5 l.",,,,,1.22,,,,carrefour
-Leche semidesnatada UHT Quién es el jefe brik 1 l.,Leche semidesnatada UHT,,,l,0.83,m,QUIEN ES EL JEFE,,carrefour
-Leche semidesnatada Celta sin lactosa brik 1 l.,Leche Semidesnatada UHT Sin Lactosa,,,l,0.99,m,CELTA,,carrefour
-Leche entera ecológica Buen Pastor brik 1 l.,Leche uht entera ecológica,,,l,1.49,m,EL BUEN PASTOR,,carrefour
-Leche semidesnatada ecológica Puleva sin lactosa brik 1 l.,,,,,1.45,,,,carrefour
-Leche semidesnatada ecológica Celta Bio 1 l.,,,,,1.15,,,,carrefour
-"Leche entera Président botella 1,5 l.",Leche entera. UHT,,,l,0.73,m,PRESIDENT,,carrefour
-Leche desnatada proteínas Bienatur Clesa sin lactosa brik 1 l.,,,,,1.25,,,,carrefour
-"Leche semidesnatada fresca Puleva sin lactosa botella 1,5 l.",,,,,1.22,,,,carrefour
-Leche desnatada brik 1 l.,,,,,0.55,,,,carrefour
-Leche semidesnatada con calcio Central Lechera Asturiana brik 1 l.,,,,,0.94,,,,carrefour
-"Leche semidesnatada Carrefour botella 1,5 l.",Leche UHT Semidesnatada enriquecida con vitaminas A y D,,,l,0.7,m,CARREFOUR,,carrefour
-Leche entera ecológica Asana brik 1 l.,,,,,1.35,,,,carrefour
-"Leche semidesnatada Président botella 1,5 l.",Leche semidesnatada. UHT,,,l,0.73,m,PRESIDENT,,carrefour
-Leche desnatada Salud Pascual brik 1 l.,,,,,1.09,,,,carrefour
-Leche con calcio Kaiku sin lactosa brik 1 l.,"Leche semidesnatada UHT sin lactosa con proteinas, con calcio y vitaminas A, D, E, ácido fólico. Origen de la leche: España.",,,l,0.99,m,KAIKU,,carrefour
-Preparado lácteo con cacao y cereales desde 3 años Crecimiento y Desarrollo Puleva Max pack de 3 briks de 200 ml.,Bebida láctea infantil con omega 3.UHT,,,l,2.08,m,PULEVA,,carrefour
+"Leche entera Celta brik 1,5 l.",Leche Entera UHT,1.17,None,l,0.78,,CELTA,,carrefour
+Leche semidesnatada con calcio Central Lechera Asturiana brik 1 l.,,0.94,None,,0.94,,,,carrefour
+Leche semidesnatada Lauki brik 1 l.,,0.79,None,,0.79,,,,carrefour
+"Leche semidesnatada Carrefour botella 1,5 l.",Leche UHT Semidesnatada enriquecida con vitaminas A y D,1.05,None,l,0.7,,CARREFOUR,,carrefour
+Bebida láctea Omega 3 Carrefour brik 1 l.,"Bebida láctea UHT a base de leche desnatada enriquecida en ácidos grasos omega 3 (EPA+DHA) y vitaminas A, D, E, B6, ácido fólico y B12.",0.87,None,l,0.87,,CARREFOUR,,carrefour
+Bebida láctea desnatada Omega Puleva 3 sin gluten sin lactosa brik 1 l.,,1.52,None,,1.52,,,,carrefour
+Leche semidesnatada Central Lechera Asturiana brik 500 ml.,,0.49,None,,0.98,,,,carrefour
+Leche semidesnatada ecológica Asana sin lactosa brik 1 l.,,1.29,None,,1.29,,,,carrefour
+Bebida láctea semi Flora Folic B brik 1 l.,,1.1,None,,1.1,,,,carrefour
+Leche semidesnatada ecológica Carrefour Bio sin lactosa brik 1 l.,,1.18,None,,1.18,,,,carrefour
+Leche de cabra semidesnatada Puleva botella 1 l.,,1.55,None,,1.55,1,,,carrefour
+Leche entera Kaiku sin lactosa brik 1 l.,"Leche entera UHT sin lactosa enriquecida en vitaminas A, D, E y ácido fólico",0.99,None,l,0.99,,KAIKU,,carrefour
+Leche entera ecológica Asana brik 1 l.,,1.35,None,,1.35,,,,carrefour
+Bebida láctea desnatada Omega Puleva 3 sin gluten sin lactosa brik 1 l.,,1.52,None,,1.52,,,,carrefour
+Leche semidesnatada Central Lechera Asturiana brik 500 ml.,,0.49,None,,0.98,,,,carrefour
+Leche semidesnatada ecológica Asana sin lactosa brik 1 l.,,1.29,None,,1.29,,,,carrefour
+Bebida láctea semi Flora Folic B brik 1 l.,,1.1,None,,1.1,,,,carrefour
+Leche semidesnatada ecológica Carrefour Bio sin lactosa brik 1 l.,,1.18,None,,1.18,,,,carrefour
+Leche de cabra semidesnatada Puleva botella 1 l.,,1.55,None,,1.55,1,,,carrefour
+Leche entera Kaiku sin lactosa brik 1 l.,"Leche entera UHT sin lactosa enriquecida en vitaminas A, D, E y ácido fólico",0.99,None,l,0.99,,KAIKU,,carrefour
+Leche entera ecológica Asana brik 1 l.,,1.35,None,,1.35,,,,carrefour
+Leche desnatada Salud Pascual brik 1 l.,,1.09,None,,1.09,,,,carrefour
+Leche entera Salud Pascual brik 1 l.,,1.09,None,,1.09,,,,carrefour
+Leche desnatada proteínas Bienatur Clesa sin lactosa brik 1 l.,"Leche desnatada ultrafiltrada sin lactosa, con alto contenido en proteínas y calcio natural",1.25,None,l,1.25,,CLESA,,carrefour
+Leche semidesnatada ecológica Celta Bio 1 l.,,1.15,None,,1.15,,,,carrefour
+"Leche entera Président botella 1,5 l.",Leche entera. UHT,1.09,None,l,0.73,,PRESIDENT,,carrefour
+"Leche semidesnatada fresca Puleva sin lactosa botella 1,5 l.",,1.83,None,,1.22,,,,carrefour
+Leche semidesnatada ecológica Puleva sin lactosa brik 1 l.,,1.45,None,,1.45,,,,carrefour
+Leche entera de cabra ecológica Cantero de Letur botella de vidrio 1 l.,,4.4,None,,4.4,,,,carrefour
+Leche desnatada Salud Pascual brik 1 l.,,1.09,None,,1.09,,,,carrefour
+Leche entera Salud Pascual brik 1 l.,,1.09,None,,1.09,,,,carrefour
+Leche desnatada proteínas Bienatur Clesa sin lactosa brik 1 l.,"Leche desnatada ultrafiltrada sin lactosa, con alto contenido en proteínas y calcio natural",1.25,None,l,1.25,,CLESA,,carrefour
+Leche semidesnatada ecológica Celta Bio 1 l.,,1.15,None,,1.15,,,,carrefour
+"Leche entera Président botella 1,5 l.",Leche entera. UHT,1.09,None,l,0.73,,PRESIDENT,,carrefour
+"Leche semidesnatada fresca Puleva sin lactosa botella 1,5 l.",,1.83,None,,1.22,,,,carrefour
+Leche semidesnatada ecológica Puleva sin lactosa brik 1 l.,,1.45,None,,1.45,,,,carrefour
+Leche entera de cabra ecológica Cantero de Letur botella de vidrio 1 l.,,4.4,None,,4.4,,,,carrefour
+Leche entera Bienatur Clesa brik 1 l.,Leche UHT Entera,0.64,0.75,l,0.75,,CLESA,,carrefour
+"Leche semidesnatada fresca ecológica Carrefour Bio botella 1,5 l.",,1.79,None,,1.19,,,,carrefour
+Leche semidesnatada Pascual sin lactosa pack de 3 briks de 200 ml.,,1.09,None,,1.82,,,,carrefour
+Leche semidesnatada Bienatur Clesa brik 1 l.,Leche UHT Semidesnatada,0.64,0.75,l,0.75,,CLESA,,carrefour
+Leche desnatada con calcio Central Lechera Asturiana brik 1 l.,,0.94,None,,0.94,,,,carrefour
+"Leche semidesnatada Pascual botella 1,2 l.",Leche semidesnatada UHT,1.22,None,l,1.02,,PASCUAL,,carrefour
+Leche semidesnatada ecológica Asana brik 1 l.,,1.34,None,,1.34,,,,carrefour
+"Leche fresca desnatada Carefour botella 1,5 l.",,1.15,None,,0.77,,CARREFOUR,,carrefour

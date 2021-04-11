@@ -1,4 +1,5 @@
 import time
+import re
 from .base_crawler import BaseCrawler
 from models.article import Article
 
@@ -42,29 +43,65 @@ class CarrefourCrawler(BaseCrawler):
         get_value = lambda box : self.try_get(box, "info-txt", lambda x: x.strip())
         return { get_key(box): get_value(box) for box in boxes}
 
+    def get_size_from_desc(self, desc):
+        m = self.get_meassure_desc(desc)
+        if m is not None:
+            m = re.search("\d", m)
+            return None if m is None else int(m.group(0))
+        return None
+
+    def get_meassure_desc(self, desc):
+        m = re.search("brik|botella \d l", desc)
+        return None if m is None else m.group(0)
+
     def parse_detail(self):
         box_prices = self.get_by_class("buybox__prices")
         description = self.get_by_class("product-header__name").text
         info_boxes = self.find_by_class("nutrition-more-info__container")
-        offer_price = self.try_get(box_prices, "buybox__price-strikethrough", lambda x: float(x.replace("€","").replace(",",".")), print_exc=False)
-        price = self.try_get(box_prices, "buybox__price--current", lambda x: float(x.replace("€","").replace(",",".")), print_exc=False)
+        offer_price = self.try_get(
+            box_prices,
+            "buybox__price-strikethrough",
+            lambda x: float(x.strip().replace("€","").replace(",",".")),
+            print_exc=False)
+    
+        price = self.try_get(
+            box_prices,
+            "buybox__price--current",
+            lambda x: float(x.strip().replace("€","").replace(",",".")),
+            print_exc=False)
         
         if price is None:
-            self.try_get(box_prices, "buybox__price", lambda x: float(x.replace("€","").replace(",",".")))
+            price = self.try_get(
+                box_prices,
+                "buybox__price",
+                lambda x: float(x.strip().replace("€/l","").replace("€","").replace(",",".")))
+        
+        if price is None:
+            print(self.browser.current_url)
+            print(box_prices, box_prices.text)
+        
+        pum = self.try_get(
+            box_prices,
+            "buybox__price-per-unit",
+            lambda x: float(x.strip().split(" ")[0].replace(",",".")))
 
-        pum = self.try_get(box_prices, "buybox__price-per-unit", lambda x: float(x.split(" ")[0].replace(",",".")))
         info_dt = self.get_info_dt(info_boxes)
-        meassure_raw = info_dt.get("Medidas", None)
+        
+        meassure_str = info_dt.get("Medidas", None) 
+        size = self.get_size_from_desc(description)
+        
+        meassure_desc = self.get_meassure_desc(description)
+
         return Article(
             description=description,
             brand=info_dt.get("Marca", None),
             name=info_dt.get("Denominación legal", None),
             price=price,
             market="carrefour",
-            offer_price=offer_price,
-            meassure= meassure_raw[-1] if meassure_raw is not None else "",
+            offer_price=str(offer_price),
+            meassure=meassure_str[-1] if meassure_str is not None else "",
             pum=pum,
-            size=meassure_raw[-2] if meassure_raw is not None else "",
+            size=size,
             meassure_description="")
 
     def try_get(self, content, className, process, print_exc=True):
@@ -75,22 +112,3 @@ class CarrefourCrawler(BaseCrawler):
                 print(ex)
                 print(className)
             return None
-
-""" legacy, parsing desde la lista
-    def parse(self, product) -> Article:
-        description = self.try_get(product, "product-card__title-link", str)
-        description_split = description.replace(".", "").split(" ")
-        price = self.try_get(product, "product-card__price", lambda x: float(x.replace("€", "").replace(",", ".")))
-        pum =  self.try_get(product, "product-card__price-per-unit", lambda x: float(x.split(" ")[0].replace(",", ".")))
-        return Article(
-            description=description,
-            brand="",
-            name="",
-            price=price,
-            market="carrefour",
-            offer_price=0.0,
-            meassure=description_split[-1],
-            pum=pum,
-            size=0.0,
-            meassure_description="")
-"""
