@@ -15,7 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. Contexto. Explicar en qué contexto se ha recolectado la información. Explique por qué el sitio web elegido proporciona dicha información.
 
-> La práctica trata sobre web scraping y se ha enfocado en el ámbito de la alimentación, en concreto, buscamos recolectar datos relativos a el precio y tipo de los productos de diferentes supermercados. Con estos datos para así, tener un histórico de los precios de sus productos y comprarlos con otros supermercados online.
 
 2. Definir un título para el dataset. Elegir un título que sea descriptivo.
 
