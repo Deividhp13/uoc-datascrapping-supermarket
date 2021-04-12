@@ -1,7 +1,6 @@
 ---
 title: "uoc-datascrapping-supermarket: Precios de productos de supermercados "
-author: "Andrés Baamonde Lozano"
-author: "David Herrero Pascual"
+author: "Andrés Baamonde Lozano, David Herrero Pascual"
 date: "12 de marzo de 2021"
 ---
 
