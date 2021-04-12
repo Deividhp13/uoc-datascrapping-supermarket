@@ -1,17 +1,18 @@
-# uoc-datascrapping-supermarket
-
-Campos a generar:
-  1. Nombre del producto.
-  2. Precio
-  3. Precio Oferta
-  4. Formato (pack, unidad...)
-  5. Marca
-  6. PUM (Precio por unidad de medida)
-
-
+---
+title: "uoc-datascrapping-supermarket: Precios de productos de supermercados "
+author: "Andrés Baamonde Lozano"
+author: "David Herrero Pascual"
+date: "12 de marzo de 2021"
+---
 
 # Ficheros
-* pdf/ Entrega, preguntas y [respuestas](./pdf/respuestas.md) de la práctica
+
+## Doc
+
+* pdf/ Entrega
+
+## Código
+
 * Crawlers/
   * base_crawler: Clase base del buscador, pide las urls, busca en el html y maneja el navegador.
   * carrefour_crawler: Fichero para buscar los enlaces de carrefour y posteriormente parsearlos.
@@ -21,10 +22,16 @@ Campos a generar:
 
 * main.py: fichero principal, su ejecución da lugar a la base de datos ejecutando todos los crawlers.
 
+## Datos
+
+* data_carrefour.csv: datos de leche supermercado carrefour.
+* data_dia.csv: datos de leche supermercado Dia.
+* full_data.csv: datos definitivos, todos los supermercados.
 
 # Instalación 
 
 ## Requirements
+
 * python version > 3.8
 
 ```bash

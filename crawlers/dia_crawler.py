@@ -64,6 +64,8 @@ class DiaCrawler(BaseCrawler):
 
         size = float(re.sub('[^0-9 | ^"."]', '', meassure_raw[-2])) if meassure_raw is not None else ""
         
+        meassure = meassure_raw[-1] if meassure_raw is not None else ""
+        measure = meassure.replace("t", "")
         return Article(
             description=description,
             brand=brand,
@@ -71,7 +73,7 @@ class DiaCrawler(BaseCrawler):
             price=price,
             market="dia",
             offer_price=offer_price,
-            meassure=meassure_raw[-1] if meassure_raw is not None else "",
+            meassure=meassure,
             pum=pum,
             size=size,
             meassure_description=meassure_description,

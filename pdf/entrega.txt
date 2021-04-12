@@ -1,0 +1,6 @@
+Integrantes:
+- Andrés Baamonde Lozano
+- David Herrero Pascual
+
+Repositorio:
+- https://github.com/Deividhp13/uoc-datascrapping-supermarket

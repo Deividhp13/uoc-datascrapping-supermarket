@@ -56,7 +56,7 @@ class CarrefourCrawler(BaseCrawler):
 
     def parse_detail(self):
         box_prices = self.get_by_class("buybox__prices")
-        description = self.get_by_class("product-header__name").text
+        description = self.get_by_class("product-header__name").text.replace("\"", "")
         info_boxes = self.find_by_class("nutrition-more-info__container")
         offer_price = self.try_get(
             box_prices,
@@ -95,8 +95,8 @@ class CarrefourCrawler(BaseCrawler):
         identifier = matches.group(0) if  matches is not None else ""
         return Article(
             description=description,
-            brand=info_dt.get("Marca", None),
-            name=info_dt.get("Denominación legal", None),
+            brand=info_dt.get("Marca", "").replace(",", ""),
+            name=info_dt.get("Denominación legal", "").replace(",",""),
             price=price,
             market="carrefour",
             offer_price=str(offer_price),
