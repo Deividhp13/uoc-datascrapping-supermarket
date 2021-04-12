@@ -12,3 +12,5 @@ class Article(object):
     brand: str # Carrefour
     meassure_description:str # brick 1L
     market: str # Carrefour/mercadona
+    timestamp: float # Unix timestamp
+    identifier: str

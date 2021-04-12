@@ -91,7 +91,8 @@ class CarrefourCrawler(BaseCrawler):
         size = self.get_size_from_desc(description)
         
         meassure_desc = self.get_meassure_desc(description)
-
+        matches = re.search("R-\d",self.browser.current_url)
+        identifier = matches.group(0) if  matches is not None else ""
         return Article(
             description=description,
             brand=info_dt.get("Marca", None),
@@ -102,7 +103,9 @@ class CarrefourCrawler(BaseCrawler):
             meassure=meassure_str[-1] if meassure_str is not None else "",
             pum=pum,
             size=size,
-            meassure_description="")
+            meassure_description="",
+            identifier=identifier,
+            timestamp=time.time())
 
     def try_get(self, content, className, process, print_exc=True):
         try:

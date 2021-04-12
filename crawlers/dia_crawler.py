@@ -63,7 +63,7 @@ class DiaCrawler(BaseCrawler):
         meassure_raw = raw_description[-2:]
 
         size = float(re.sub('[^0-9 | ^"."]', '', meassure_raw[-2])) if meassure_raw is not None else ""
-
+        
         return Article(
             description=description,
             brand=brand,
@@ -74,7 +74,9 @@ class DiaCrawler(BaseCrawler):
             meassure=meassure_raw[-1] if meassure_raw is not None else "",
             pum=pum,
             size=size,
-            meassure_description=meassure_description)
+            meassure_description=meassure_description,
+            identifier=self.browser.current_url.split("/")[-1],
+            timestamp=time.time())
 
 
 """ legacy, parsing desde la lista
